@@ -12,7 +12,28 @@
 		<div class="container">
 			<p class="logo">Front-end News!</p>
 		</div>		
-	</header>	
+	</header>
+	<div class="modal-overlay js-modal-overlay">		
+	</div>
+	<div class="modal">
+		<div class="modal-media">
+			<img src="https://s.gravatar.com/avatar/eaeefe17cf131462ea7475884fae48e5?s=500&r=g" alt="Oscar Enríquez">
+			<h3 class="modal-media-title">Oscar Enr&iacute;quez</h3>
+		</div>
+		<div class="modal-content">
+			<h3>About Me</h3>
+			<p>I'm a seiously good copy and paster. Front-end dev for @codeschool, lover of all things web design/dev related an founder of @frontendconf.</p>
+
+			<ol class="news">
+				<li class="news-item">
+					<a href="#" class="news-link">Fronted Design</a>
+				</li>
+				<li class="news-item">
+					<a href="#" class="news-link">Javascript Modules: A Beginner's Guide</a>
+				</li>
+			</ol>
+		</div>
+	</div>
 	<main class="content">
 		<div class="container">
 			<header class="subheader">
@@ -29,7 +50,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a class="js-show-modal" href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">5 comments</a>
@@ -44,7 +65,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a class="js-show-modal" href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">3 comments</a>
@@ -59,7 +80,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a class="js-show-modal" href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">2 comments</a>
@@ -74,7 +95,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a class="js-show-modal" href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">2 comments</a>
@@ -89,7 +110,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a class="js-show-modal" href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">4 comments</a>
@@ -104,7 +125,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a class="js-show-modal" href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">10 comments</a>
@@ -119,7 +140,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a class="js-show-modal" href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">2 comments</a>
@@ -134,7 +155,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">2 comments</a>
@@ -149,7 +170,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">5 comments</a>
@@ -164,7 +185,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">2 comments</a>
@@ -179,7 +200,7 @@
 					<ul class="news-meta">
 						<li class="news-meta-item">
 							<em>Posted by:</em>
-							<a href="#">Dan Denney</a>
+							<a href="#">Oscar Enr&iacute;quez</a>
 						</li>
 						<li class="news-meta-item">
 							<a href="#">3 comments</a>
@@ -191,27 +212,7 @@
 				</li>
 			</ol>
 		</div>
-	</main>
-
-	<div class="modal">
-		<div class="modal-media">
-			<img src="" alt="">
-			<h3 class="modal-media-title">Oscar Enríquez</h3>
-		</div>
-		<div class="modal-content">
-			<h3>About Me</h3>
-			<p>I'm a seiously good copy and paster. Front-end dev for @codeschool, lover of all things web design/dev related an founder of @frontendconf.</p>
-
-			<ol class="news">
-				<li class="news-item">
-					<a href="#" class="news-link">Fronted Design</a>
-				</li>
-				<li class="news-item">
-					<a href="#" class="news-link">Javascript Modules: A Beginner's Guide</a>
-				</li>
-			</ol>
-		</div>
-	</div>
+	</main>	
 
 	<script src="node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="app.js"></script>
